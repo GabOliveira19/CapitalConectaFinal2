@@ -1,0 +1,84 @@
+/* Capital Conecta+ — identidade visual da logo fornecida. */
+:root {
+  --cc-orange:#ff7900; --cc-orange-ink:#a64700; --cc-soft:#fff1e6;
+  --primary-color:#ff7900; --bs-primary:#ff7900; --bs-primary-rgb:255,121,0;
+  --bs-link-color:#a64700; --bs-link-color-rgb:166,71,0;
+  --bs-link-hover-color:#793400; --bs-link-hover-color-rgb:121,52,0;
+  --bs-primary-text-emphasis:#793400; --bs-primary-bg-subtle:#fff1e6;
+  --bs-primary-border-subtle:#ffc794; --bs-focus-ring-color:rgba(255,121,0,.3);
+  --sb-text:#202020; --sb-muted:#626262;
+  --sb-blue-900:#181818; --sb-blue-700:#8f3e00; --sb-blue-600:#a64700;
+  --sb-blue-500:#bd5500; --sb-blue-400:#ff7900; --sb-blue-100:#ffe3ca;
+  --sb-blue-50:#fff6ef; --sb-gradient:linear-gradient(135deg,#000,#292929);
+  --sb-shadow-sm:0 4px 12px #00000014; --sb-shadow-md:0 10px 30px #0000001f;
+  --sb-shadow-lg:0 20px 45px #0000002b;
+  --hm-green:#242424; --hm-green-dark:#000; --hm-green-soft:#f0f0f0;
+  --hm-purple:#a64700; --hm-purple-dark:#793400; --hm-purple-soft:#fff1e6;
+}
+body {background:#f7f7f7;color:#202020;}
+body .navbar.sb-navbar {background:#000!important;border-bottom:2px solid #ff7900;}
+.sb-navbar .navbar-brand {width:165px;max-width:165px;gap:0;}
+.sb-navbar .brand-logo {position:relative;width:150px!important;height:58px!important;flex:0 0 150px!important;border-radius:0!important;background:#000;overflow:hidden;}
+/* Frame the supplied square image without editing or stretching the artwork. */
+.sb-navbar .brand-logo-img {position:absolute;left:50%;top:50%;width:118%;height:auto;max-height:none;max-width:none;transform:translate(-50%,-50%);object-fit:contain;}
+.sb-navbar .sb-brand-text {display:none;}
+.sb-navbar .nav-link,.sb-navbar .settings-link {color:#fff!important;}
+.sb-navbar .nav-link:hover,.sb-navbar .nav-link:focus-visible,.sb-navbar .nav-link.active,.sb-navbar .settings-link:hover {color:#ff9b43!important;background:rgba(255,121,0,.12);}
+.sb-navbar .main-menu .nav-link::after {background:#ff7900;}
+.sb-navbar .navbar-toggler {border-color:#777;color:#fff;}
+.sb-navbar .navbar-toggler-icon {filter:invert(1) grayscale(1) brightness(2);}
+.sb-navbar .dropdown-menu {border:1px solid #dedede;}
+.sb-navbar .dropdown-item:not(.text-danger):hover {color:#793400;background:#fff1e6;}
+.hm-hero {background:radial-gradient(ellipse at 90% 35%,#452100 0,transparent 55%),#101010;color:#fff;}
+.hm-hero-icon {color:#ff7900;}
+.hm-btn-primary {background:#ff7900;color:#000;}
+.hm-btn-primary:hover {background:#ff9b43;color:#000;}
+.hm-btn-glass {color:#fff!important;}
+.btn-primary {--bs-btn-color:#000;--bs-btn-bg:#ff7900;--bs-btn-border-color:#ff7900;--bs-btn-hover-color:#000;--bs-btn-hover-bg:#ff9b43;--bs-btn-hover-border-color:#ff9b43;--bs-btn-active-color:#000;--bs-btn-active-bg:#ed7000;--bs-btn-active-border-color:#ed7000;--bs-btn-disabled-color:#000;--bs-btn-disabled-bg:#ff7900;--bs-btn-disabled-border-color:#ff7900;background:#ff7900!important;border-color:#ff7900!important;color:#000!important;}
+.btn-primary:hover,.btn-primary:focus-visible {background:#ff9b43!important;border-color:#ff9b43!important;color:#000!important;}
+.btn-primary:active {background:#ed7000!important;}
+.btn-outline-primary {--bs-btn-color:#a64700;--bs-btn-border-color:#a64700;--bs-btn-hover-color:#000;--bs-btn-hover-bg:#ff7900;--bs-btn-hover-border-color:#ff7900;--bs-btn-active-color:#000;--bs-btn-active-bg:#ff7900;--bs-btn-active-border-color:#ff7900;--bs-btn-disabled-color:#a64700;color:#a64700;border-color:#a64700;}
+.btn-outline-primary:hover,.btn-outline-primary:active {color:#000!important;background:#ff7900!important;border-color:#ff7900!important;}
+.text-primary {color:#a64700!important;}
+.bg-primary {background-color:#ff7900!important;color:#000!important;}
+.bg-primary .text-white {color:#000!important;}
+.border-primary {border-color:#ff7900!important;}
+.form-control:focus,.form-select:focus {border-color:#c55c00;box-shadow:0 0 0 .2rem #ff790033;}
+.form-check-input:checked {background-color:#a64700;border-color:#a64700;}
+.nav-pills .nav-link.active,.pagination .page-item.active .page-link {background:#ff7900;border-color:#ff7900;color:#000;}
+.desktop-footer {background:#000;color:#eee;border-top:2px solid #ff7900;}
+.desktop-footer a,.desktop-footer h5 {color:#fff;}
+.desktop-footer a:hover {color:#ff9b43;}
+.desktop-footer .copyright {color:#ccc;}
+.bottom-nav {background:#000!important;border-top:1px solid #ff7900;}
+.bottom-nav .nav-link {color:#ddd!important;}
+.bottom-nav .nav-link.active,.bottom-nav .nav-link:hover {color:#ff9b43!important;background:#231100;}
+.botao-ia {background:#fff!important;color:#000!important;border:2px solid #ff7900!important;padding:3px;box-sizing:border-box;animation:none;box-shadow:0 4px 14px #0002;}
+.botao-ia img {mix-blend-mode:normal;filter:none;opacity:1;width:100%!important;height:100%!important;object-fit:contain;}
+.botao-ia:hover {background:#fff!important;box-shadow:0 6px 18px #0003;}
+.login-page .diagonal-panel,.login-page .info-side::before {background:radial-gradient(circle at 20% 20%,#492400,transparent 55%),linear-gradient(135deg,#000,#282828)!important;}
+.login-page .diagonal-panel::before {background:radial-gradient(circle at 80% 80%,#ff790033,transparent 50%);}
+::selection {background:#ff7900;color:#000;}
+body.visual-theme-dark {--sb-text:#eee;--sb-muted:#bbb;background:#111;color:#eee;}
+body.visual-theme-dark .navbar.sb-navbar {background:#000!important;}
+body.visual-theme-dark .card,body.visual-theme-dark .dropdown-menu,body.visual-theme-dark .offcanvas,body.visual-theme-dark .list-group-item,body.visual-theme-dark .modal-content,body.visual-theme-dark .cc-panel {background:#222!important;border-color:#555;color:#eee;}
+body.visual-theme-dark .text-primary {color:#ffa24f!important;}
+body.visual-theme-dark .btn-outline-primary {color:#ffa24f;border-color:#ffa24f;}
+body.visual-theme-dark .form-control,body.visual-theme-dark .form-select {background:#181818;color:#eee;border-color:#666;}
+body.visual-theme-dark .dropdown-item:not(.text-danger):hover {color:#fff!important;background:#432000;}
+@media(max-width:991.98px) {
+  .sb-navbar .navbar-collapse {background:#111;border:1px solid #444;}
+  .sb-navbar .navbar-brand {width:150px;max-width:calc(100vw - 95px);}
+  .sb-navbar .brand-logo {width:140px!important;flex-basis:140px!important;height:55px!important;}
+}
+
+.login-page .btn-submit {background:#ff7900;color:#000;box-shadow:0 10px 25px -10px #0005;}
+.login-page .btn-submit:hover {background:#ff9b43;color:#000;}
+
+/* Company branding: status alerts retain their semantic colors. */
+:root {--emp-primary:#a64700;--emp-primary-soft:#fff1e6;--emp-primary-dark:#793400;}
+.empresa-header {background:linear-gradient(135deg,#fff,#fff6ee);}
+body:not(.visual-colorblind) .btn-success {background:#ff7900;border-color:#ff7900;color:#000;}
+body:not(.visual-colorblind) .btn-success:hover {background:#ff9b43;border-color:#ff9b43;color:#000;}
+body:not(.visual-colorblind) .btn-outline-success {color:#a64700;border-color:#a64700;}
+body:not(.visual-colorblind) .btn-outline-success:hover {background:#ff7900;border-color:#ff7900;color:#000;}
